@@ -83,12 +83,17 @@ A sophisticated **GUI-based fleet management system** for autonomous robots with
 3. Click "Assign Task" button or press Enter
 4. Robot will turn blue and start moving along calculated path
 
+   ![GUI Interface taskassign ](images/task_assign.png)
+   
 ### ⚠️ Handling Conflicts
 - When robots conflict on lanes:
   - Lower ID robot gets priority
   - Other robot turns magenta and waits
   - System shows red conflict notification
 
+ ![GUI Interface SameLane ](images/robots_using_same_lane.png)  
+ ![GUI Interface SameLane ](images/robot_samelane_l1.png)  
+ 
 ### 🔋 Battery Management
 - Robots automatically:
   - Consume battery while moving
