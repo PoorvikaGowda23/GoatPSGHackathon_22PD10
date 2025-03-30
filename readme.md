@@ -100,10 +100,37 @@ A sophisticated **GUI-based fleet management system** for autonomous robots with
   - Reroute to chargers (yellow vertices) when battery < 20%
   - Charge until battery ≥ 95% then return to idle
 
+![GUI Interface ChargeRobot ](images/charge_robot3.png)
+
 ## 📂 Project Structure
-
-
-
+```
+│
+├── data/
+│ └── nav_graph.json # Merged navigation graph
+│
+├── src/
+│ ├── models/
+│ │ ├── nav_graph.py 
+│ │ ├── robot.py 
+│ │
+│ ├── controllers/
+│ │ ├── fleet_manager.py 
+│ │ ├── traffic_manager.py 
+│ │
+│ ├── gui/
+│ │ └── fleet_gui.py # Main GUI application
+│ │
+│ ├── utils/
+│ │ └── helpers.py
+│ │
+│ ├── logs/
+│ │ └── fleet_logs.txt
+│ │
+│ └── main.py # Application entry point
+│
+├── README.md # This documentation
+└── requirements.txt # Python dependencies
+```
 
 ## 🧪 Testing Scenarios
 
