@@ -45,8 +45,8 @@ A sophisticated **GUI-based fleet management system** for autonomous robots with
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/robot-fleet-system.git
-    cd robot-fleet-system
+    git clone https://github.com/PoorvikaGowda23/GoatPSGHackathon_22PD10.git
+    cd GoatPSGHackathon_22PD10
     ```
 
 2. **Install dependencies**
